@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-02T18:49:51.012378+00:00",
+  "version": "1.0.0",
+  "site": "形序 · Design Index",
+  "entryCount": 50,
+  "repo": "https://github.com/wulinjun007/form-design-index",
+  "publicChecks": {
+    "vercel": [
+      {
+        "url": "https://form-design-index.vercel.app/",
+        "status": 200,
+        "bytes": 462403,
+        "sha256": "a8926c2b900c8074f4245c538158827249708ea54c21968433a80457bb7b8942"
+      },
+      {
+        "url": "https://form-design-index.vercel.app/health.json",
+        "status": 200,
+        "bytes": 87,
+        "sha256": "54f13812ad8c78da89f54467c28a1c97d21db4121dbdaee63dcb43caa8ffa2f8",
+        "health": {
+          "site": "form-design-index",
+          "version": "1.0.0",
+          "entries": 50,
+          "built": "2026-10-03"
+        }
+      },
+      {
+        "url": "https://form-design-index.vercel.app/catalogue.json",
+        "status": 200,
+        "bytes": 34146,
+        "sha256": "f9d452eea40b816118616e8a94c573a6aeac62d87a36c63bc5a2820277929b98",
+        "entries": 50
+      }
+    ],
+    "githubPages": [
+      {
+        "url": "https://wulinjun007.github.io/form-design-index/",
+        "status": 200,
+        "bytes": 462403,
+        "sha256": "a8926c2b900c8074f4245c538158827249708ea54c21968433a80457bb7b8942"
+      },
+      {
+        "url": "https://wulinjun007.github.io/form-design-index/health.json",
+        "status": 200,
+        "bytes": 87,
+        "sha256": "54f13812ad8c78da89f54467c28a1c97d21db4121dbdaee63dcb43caa8ffa2f8",
+        "health": {
+          "site": "form-design-index",
+          "version": "1.0.0",
+          "entries": 50,
+          "built": "2026-10-03"
+        }
+      },
+      {
+        "url": "https://wulinjun007.github.io/form-design-index/catalogue.json",
+        "status": 200,
+        "bytes": 34146,
+        "sha256": "f9d452eea40b816118616e8a94c573a6aeac62d87a36c63bc5a2820277929b98",
+        "entries": 50
+      }
+    ]
+  },
+  "browserChecks": {
+    "engine": "Chromium",
+    "viewportWidths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "horizontalOverflow": false,
+    "searchCarbon": 1,
+    "publicServiceCategory": 10,
+    "archivedFilter": 2,
+    "fullCatalogueLoaded": 50,
+    "bookmarkSurvivesReload": true,
+    "compareMaximum": 3,
+    "compareTableColumnsWithLabels": 4,
+    "comparisonDimensions": 6,
+    "detailEscapeRestoresFocus": true,
+    "dialogTabWrapKeepsFocus": true,
+    "detailTabs": true,
+    "sharedDetailLink": true,
+    "learningRouteReferences": 4,
+    "learningRouteSteps": 3,
+    "listViewAndNameSort": true,
+    "mobileMenu": true,
+    "standaloneFileOpened": true,
+    "markdownDownloadItems": 50,
+    "pageErrorsObserved": []
+  },
+  "limits": [
+    "Chromium functional and viewport checks, not a full cross-browser or WCAG audit.",
+    "Directory data is a 2026-10-02 research snapshot.",
+    "Bookmarks are stored locally and do not sync across devices."
+  ]
+}

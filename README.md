@@ -2,6 +2,10 @@
 
 一个中文设计系统参考网站，收录 50 个全球设计规范、设计系统、组件框架与构建工具。
 
+**在线访问：** [正式网站](https://form-design-index.vercel.app/) · [GitHub Pages](https://wulinjun007.github.io/form-design-index/)
+
+![桌面预览](preview/desktop.png)
+
 资料核对日期为 **2026-10-02**。排序是基于参考价值的编辑选择，不是官方排名或实时 GitHub 热度榜。
 
 ## 使用
@@ -64,11 +68,13 @@ vercel link
 vercel deploy --prod
 ```
 
+本仓库已连接 Vercel 的 GitHub 集成，推送 main 可触发构建。Pages 使用 main/docs。
+
 发布后需匿名访问首页与 `health.json`，再在正式网址验证搜索和详情。平台显示 Ready 本身不构成公开访问验收。
 
 ## 验收范围
 
-已在 Chromium 检查 320、390、768、1440 像素视口布局，验证 50 项加载、关键词与分类筛选、归档筛选、空结果、收藏刷新保留、三项对比上限、详情标签页、Escape 关闭及焦点恢复。此检查不等同于全平台兼容性或完整 WCAG 合规认证。
+已在 Chromium 检查 320、390、768、1440 像素视口布局，验证 50 项加载、关键词与分类筛选、归档筛选、空结果、收藏刷新保留、三项对比上限、详情标签页、Escape 关闭及焦点恢复。同时验证了学习路线跳转、名称排序、列表视图、项目详情直达链接、单文件 HTML 直接打开和 50 项 Markdown 清单实际下载。Vercel 与 GitHub Pages 的首页、health.json 和 catalogue.json 均匿名返回 HTTP 200，两个首页与本地发布文件的 SHA-256 一致。此检查不等同于全平台兼容性或完整 WCAG 合规认证。
 
 ## 许可
 
